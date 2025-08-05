@@ -1,3 +1,13 @@
+```bash
+git clone https://github.com/kparent/jboss-helloworld.git
+
+cd jboss-helloworld
+
+mvn clean install
+```
+
+
+
 helloworld: Helloworld Example
 ===============================
 Author: Pete Muir  
