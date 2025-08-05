@@ -4,11 +4,13 @@ cd jboss-helloworld
 
 mvn clean install
 mvn clean install -DskipTests
+````
 
+```bash
 mvn jetty:run
-
-
 ```
+
+```bash
 [INFO] Started o.e.j.m.p.JettyWebAppContext@4c5228e7{/jboss-helloworld,file:///Users/mzc01-gwsong/Library/CloudStorage/GoogleDrive-oebinu2021@gmail.com/My%20Drive/MZC/HAEA_DotCOM/02_jboss/jboss-helloworld/src/main/webapp/,AVAILABLE}{file:///Users/mzc01-gwsong/Library/CloudStorage/GoogleDrive-oebinu2021@gmail.com/My%20Drive/MZC/HAEA_DotCOM/02_jboss/jboss-helloworld/src/main/webapp/}
 [INFO] Started ServerConnector@5b000fe6{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
 [INFO] Started @1991ms
